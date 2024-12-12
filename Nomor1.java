@@ -1,9 +1,10 @@
+
 import java.util.Scanner;
 
 public class Nomor1 {
 
     
-    public static void Nomor1 (int n) {
+    public static void angkaGanjil(int n) {
         System.out.println("Angka ganjil dari 0 hingga " + n + " adalah:");
         for (int i = 1; i <= n; i += 2) {
             System.out.print(i + " ");
