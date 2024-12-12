@@ -13,11 +13,9 @@ public class Ganjilangka {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        
         System.out.print("Masukkan bilangan n: ");
         int n = scanner.nextInt();
 
-        
         angkaGanjil(n);
 
         
